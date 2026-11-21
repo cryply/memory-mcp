@@ -111,6 +111,17 @@ OpenCode (`opencode.json`):
 }
 ```
 
+## Quick start with Claude desktop
+
+1. Build, add the server to `claude_desktop_config.json` as in the example
+   above, restart the application.
+2. Paste the rules into personal preferences (Claude, Settings, Your Claude);
+   the text is in `docs/claude-rules.md`, Variant C.
+3. Every few days: `memory-mcp --dir /path/to/data show --scope project:<name>`,
+   then `lift` or `retract` the lines marked `?`.
+
+Checked in a fresh task: the agent calls recall on its own at the start.
+
 See `docs/claude-rules.md` for the scope convention and rules text for
 Claude Code and Claude desktop.
 
