@@ -119,3 +119,7 @@ Claude Code and Claude desktop.
 - as_of(t) view
 - valid-time intervals (only transaction time now)
 - remote transport for sandboxed agents
+
+## License
+
+MIT or Apache-2.0, at your option.
